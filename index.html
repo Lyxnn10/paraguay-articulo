@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paraguay - Lian</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icon.jpg">
+</head>
+<body>
+
+  <header>
+    <h1> <a id="title">Paraguay </a></h1>
+  </header>
+
+  <nav id="main">
+    <ul>
+      <li class="logo"><a href="#">LIAN</a></li>
+      <li><a href="#" id="bar">Home</a></li>
+      <li><a href="fotos/index.html" id="bar" target="_blank">Fotos</a></li>
+      <li><a href="contact/index.html" id="bar" target="_blank">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="site-wrap">
+    <center> <h2>Artículo: <br> Paraguay, la joya por descubrir de Latinoamérica</h2> </center>
+    <br>
+    <hr>
+    <br>
+    (TEXT)
+  </div>
+
+  <script>
+    const nav = document.querySelector('#main');
+    let topOfNav = nav.offsetTop;
+
+    function fixNav() {
+      if (window.scrollY >= topOfNav) {
+        document.body.style.paddingTop = nav.offsetHeight + 'px';
+        document.body.classList.add('fixed-nav');
+      } else {
+        document.body.classList.remove('fixed-nav');
+        document.body.style.paddingTop = 0;
+      }
+    }
+
+    window.addEventListener('scroll', fixNav);
+
+  </script>
+  <div class="bottom-links"> 
+    <br> <br>
+    <center>
+      <h2>LIAN | 2023</h2> <br>
+      </center>
+    </center>
+    <center>
+        <button onclick="window.location.href='https://github.com/Lyxnn10/paraguay-articulo'" type="button" class="buttonlogo" target="_blank">
+            <span class="button__text">GitHub</span>
+            <span class="button__icon">
+              <ion-icon name="logo-github"></ion-icon>  
+            </span>
+          </button>
+          <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+          <br>
+    </center>
+</div>
+</body>
+</html>
