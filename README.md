@@ -5,3 +5,8 @@ Un sitio web con la información más importante sobre paraguay se muestra genia
 <h2> Enlace al sitio web: </h2>
 
 - netlify link
+
+What will come?
+
+- Videos
+- The Text
