@@ -6,7 +6,7 @@ Un sitio web con la información más importante sobre paraguay se muestra genia
 
 - netlify link
 
-What will come?
+<h2> What will come?</h2>
 
 - Videos
 - The Text
