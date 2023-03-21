@@ -9,5 +9,5 @@ Un sitio web con la información más importante sobre paraguay se muestra genia
 <h2> What will come?</h2>
 
 - Videos of Paraguay (Nature, Cities, etc.)
-- The Text
-- Pictures with the Text
+- The Text of the article
+- Pictures with the Text of the article
