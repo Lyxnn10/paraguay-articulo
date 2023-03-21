@@ -10,3 +10,4 @@ What will come?
 
 - Videos
 - The Text
+- Pictures with the Text
