@@ -11,3 +11,4 @@ Un sitio web con la información más importante sobre paraguay se muestra genia
 - Videos of Paraguay (Nature, Cities, etc.)
 - The Text of the article
 - Pictures with the Text of the article
+- Gmaps
